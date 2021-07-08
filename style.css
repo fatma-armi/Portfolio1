@@ -183,7 +183,22 @@ section h3::after {
 }
 .col-4 a:hover img {
 	transform: scale(1.2);
-	width: 100%;
+}
+@import url('https://fonts.googleapis.com/css?family=Marmelad');
+.container {
+    display: flex;
+    justify-content: center;
+}
+.content {
+    position: relative;
+    width: 400px; height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 5px double #E68804;
+    background: #0a112e;
+}
+.content img {
+    width: 100%;
     opacity: 0.25;
     transition: all 0.4s ease-in-out;
 }
