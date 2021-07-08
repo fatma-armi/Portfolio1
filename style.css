@@ -135,6 +135,26 @@ section h2 {
 	margin: 20px;
 	position: relative;
 }
+section h2::before {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 120px;
+	height: 1px;
+	background-color: #ddd;
+	left: calc(50% - 60px);
+}
+section h2::after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -1px;
+	width: 40px;
+	height: 4px;
+	background-color: #F84744;
+	left: calc(50% - 20px);
+}
 #about p {
 	text-align: justify;
 	text-indent: 30px;
