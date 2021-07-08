@@ -129,16 +129,6 @@ section h3::after {
 	background-color: #F84744;
 	left: calc(50% - 20px);
 }
-.image {
-    position: relative;
-    width: 400px;
-}
-
-.image__img {
-    display: block;
-    width: 100%;
-}
-
 .image__overlay {
     position: absolute;
     top: 0;
@@ -154,10 +144,6 @@ section h3::after {
     justify-content: center;
     opacity: 0;
     transition: opacity 0.25s;
-}
-
-.image__overlay--blur {
-    backdrop-filter: blur(5px);
 }
 
 .image__overlay--primary {
