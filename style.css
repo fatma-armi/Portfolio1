@@ -129,6 +129,12 @@ section h3::after {
 	background-color: #F84744;
 	left: calc(50% - 20px);
 }
+section h2 {
+	padding-bottom: 20px;
+	text-align: center;
+	margin: 20px;
+	position: relative;
+}
 #about p {
 	text-align: justify;
 	text-indent: 30px;
